@@ -1,0 +1,144 @@
+/* navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 100px;
+  }
+  
+  .title {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151b32;
+    margin-bottom: 20px;
+  }
+  
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 40px;
+  }
+  
+  .search-bar {
+    display: grid;
+    width: 330px;
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    bottom: 14px;
+    color: #000;
+    font-size: 26px;
+  }
+  .search {
+    padding: 4px 40px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151b32;
+    width: 100%;
+    border: 1px solid #bbbcc1;
+  }
+  
+  .navbar-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .nav-item {
+    background-color: #fff;
+    border: none;
+    padding: 16px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151b32;
+    opacity: 0.8;
+    border-radius: 8px;
+  }
+  
+  .active {
+    color: #fff;
+    background-color: #849fff;
+  }
+
+
+
+/* main */
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.khungimg{
+    width: 97px;
+    height: 97px;
+    padding: 24px 0 0 24px;
+    display: flex;
+   
+}
+.khungimg img{
+    border-radius: 100%;
+}
+.element-main{
+    display: flex;
+    width: 327px;
+    height: 208px;
+    gap: 16px;
+}
+.element-main ul{
+    padding: 44px 65px 141px 16px;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.infor h4{
+    font-style: black;
+    font-family: Merriweather;
+    font-size: 18px;
+    line-height: 23px;
+    line-height: 100%;
+    vertical-align: top;
+}
+.infor p{
+    font-family: Poppins;
+    font-size: medium;
+    font-size: 14px;
+    line-height: 21px;
+    line-height: 100%;
+    vertical-align: top;
+}
+.khunginter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    padding-top: 20px;
+}
+  .interests {
+    border: 1px dotted #516fd5;
+    border-radius: 10px;
+    padding: 1px 4px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #516fd5;
+  }

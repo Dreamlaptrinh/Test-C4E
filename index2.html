@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test2</title>
+</head>
+<body>
+    <script>
+        function numberOneTriangle(n){
+            for(var i=1; i <= n; i++)
+            {   
+                var x='';
+                 for(var j =0; j<i; j++)
+                 {
+                    x+= '* ';
+                 }
+                 console.log(x);
+            }
+        }
+        let n = prompt('nhập số thứ n');
+        console.log(numberOneTriangle(n));
+    </script>
+</body>
+</html>
